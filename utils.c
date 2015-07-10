@@ -54,6 +54,7 @@ static inline char* getKey(void) {
 //static int* _cryptKey = fromCharToInt("abc123");
 //TODO create key for the program and free it after
 /* END OF STATIC SECTION */
+
 static  inline int charCount(const char* string, char delimiter) {
     int occs=0;
     while ( *string ) {
